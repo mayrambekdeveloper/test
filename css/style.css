@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ 
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #1E2024;
+}
+ 
+a {
+    text-decoration: none;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+} 
+
+.header-start {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #FFF;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.header-end  {
+    display: flex;
+    gap: 30px;
+    color: #9099A3;
+    font-size: 14px;
+    font-weight: 500;
+    
+
+}
+
+.header-end1 button {
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    background: #1A5CFF;
+    box-shadow: 0px 8px 20px 0px rgba(26, 92, 255, 0.20);
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 900;
+    border: none;
+    
+}
+
+.climat {
+    position: absolute;
+    bottom:  600px;
+    right: 230px;
+}
+
+.climat-1 {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.climat-2 {
+    color: #2C3E50;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.afriki {
+    position: absolute;
+    bottom: 300px;
+    right: 500px;
+}
+.afriki h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.start {
+    position: absolute;
+    bottom: 65px;
+    right: 260px;
+} 
+
+
+
+.start {
+    width: 1040px;
+height: 160px;
+flex-shrink: 0;
+
+border-radius: 15px;
+background: #FFF;
+}
+
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+   
+}
+
+.start h5 {
+    color: #2C3E50;
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.start a {
+    color: #2C3E50;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mesta {
+    width: 510px;
+height: 217px;
+flex-shrink: 0;
+border-radius: 15px;
+background: rgba(255, 255, 255, 0.20);
+margin: 30px;
+}
+.mesta img {
+    margin: 4px;
+}
+.mesta a {
+    display: flex;
+    align-items: center;
+}
